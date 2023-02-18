@@ -1,4 +1,4 @@
-import '../src/styles/globals.css'
+import '../../src/styles/globals.css'
 
 export default function RootLayout({
   children,
@@ -7,7 +7,6 @@ export default function RootLayout({
 }) {
   return (
     <html>
-      <head />
       <body>{children}</body>
     </html>
   )
